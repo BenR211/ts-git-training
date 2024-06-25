@@ -31,6 +31,7 @@ export const computeFibonacciNumber = (position: number, isRecursive: boolean = 
         currentPosition++;
     }
     return largeFibonacciNumber;
+    return largeFibonacciNumber;
 };
 
 const recursiveFibonacci = (initialPosition: number, left: number = 0, right: number = 1, position?: number): number => {
