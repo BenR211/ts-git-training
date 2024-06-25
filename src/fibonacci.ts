@@ -11,12 +11,14 @@ export const computeFibonacciNumber = (position: number | null): number => {
         return computeNegativeFibonacci(position);
     }
 
+
+    let i = 1;
+    let j = 1;
+
     if (notNullPosition <= 2) {
         return 1;
     }
 
-    let i = 1;
-    let j = 1;
 
     let currentPosition = 2;
     while (currentPosition < notNullPosition) {
